@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --bg:#1a1818;
+  --bgSoft:#3d3a3a;
+  --text:white;
+  --textSoft:whitesmoke;
+  --btn:green;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   background-color: #1a1818;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+   width: 1536px;
+   margin: auto;
+   padding-left: 50px;
+   padding-right: 50px;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
 }
