@@ -6,7 +6,7 @@
     text-align: center;
 }
 .active{
-    background-color: #fff;
-    color: black;
-
+    color: orange;
+    font-weight: 600;
+    text-decoration: underline;
 }
