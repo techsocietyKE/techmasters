@@ -31,7 +31,7 @@ const links =[
 ]
 const Links =()=>{
 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
     const session = true
     const isAdmin = true
     return(
@@ -51,7 +51,7 @@ const Links =()=>{
                 )
             }
         </div>
-        <button onClick={()=>setOpen((prev)=>!prev)}>menu</button>
+        <button className={styles.menuButton} onClick={()=>setOpen((prev)=>!prev)}>menu</button>
         {
             open && <div className={styles.mobilelinks}>
                 {links.map((link)=>(
