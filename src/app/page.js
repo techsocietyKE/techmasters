@@ -1,28 +1,30 @@
 import Image from 'next/image';
-import logo from '../../public/logo.PNG'; 
+import styles from './home.module.css'
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24" style={{ backgroundImage: `url(${logo})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      <div className='flex flex-col justify-center mt-9 items-center'> 
-        <h1 className='text-[green] font-sans font-bold text-md'>
-          <span className='text-[orange] underline italic'>Donate</span> something or give your sister this contact
-        </h1>
-        <h1 className='text-2xl mt-9 underline'>0769375210</h1>
+ 
 
-        <div className='my-12'>
-          <div className="🤚">
-            <div className="👉"></div>
-            <div className="👉"></div>
-            <div className="👉"></div>
-            <div className="👉"></div>
-            <div className="🌴"></div>		
-            <div className="👍"></div>
-          </div>
-        </div> 
-        <h1 className='bg-[red] px-5 py-3 text-md font-bold rounded-md'>This site is under Development</h1>
-        <h1 className='text-md italic bold text-slate-400 my-6'>@Shadow</h1>
+  return (
+   <div className='h-screen my-7 '>
+     <div className={styles.body}>
+        <div className='flex items-center justify-center h-screen '>
+      <div className=''>
+        <h1 className='md:text-7xl font-extrabold text-2xl mb-8  mt-4 ml-1   md:my-5 md:mx-5 tracking-wider'>Techmasters</h1>
+        <p className='md:mx-8 md:my-8 mt-9 text-xl text-start text-white tracking-wide font-extrabold'>
+          Nothing Special here,just doctors engineers Developers Captains Pastors and the list goes
+          on and on and on....
+        </p>
+        <div className='flex gap-8 mx-8 mt-8'>
+          <button className='bg-[#11823B] text-white px-8 py-2 rounded-3xl hover:bg-[#004d25] hover:font-extrabold'>The Club</button>
+          <button className='bg-[#11823B] text-white px-8 py-2 rounded-3xl hover:bg-[#004d25] hover:font-extrabold'>Contacts</button>
+        </div>
+          {/* <div className={styles.brands}>
+            <Image src='https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='brand' fill className={styles.brand}/>
+          </div> */}
       </div>
-    </main>
+
+    </div>
+    </div>
+   </div>
   );
 }

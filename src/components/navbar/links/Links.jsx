@@ -34,8 +34,8 @@ const Links =()=>{
 
     const [open, setOpen] = useState(false)
     
-    const session = true
-    const isAdmin = true
+    const session = false
+    const isAdmin = false
     return(
         <div className={styles.container}>
         <div className={styles.links}>
