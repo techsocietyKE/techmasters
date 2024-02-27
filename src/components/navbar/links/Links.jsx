@@ -8,22 +8,22 @@ const links =[
         title:"Homepage",
         path:'/'
     },
-    {
-        title:"About",
-        path:'/about'
-    },
-    {
-        title:"Masters",
-        path:'/masters'
-    },
+    // {
+    //     title:"About",
+    //     path:'/about'
+    // },
+    // {
+    //     title:"Masters",
+    //     path:'/masters'
+    // },
     {
         title:"Blog",
         path:'/blog'
     },
-    {
-        title:"News",
-        path:'/news'
-    },
+    // {
+    //     title:"News",
+    //     path:'/news'
+    // },
     {
         title:"Contact",
         path:'/contact'

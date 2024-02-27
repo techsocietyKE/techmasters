@@ -15,7 +15,7 @@ const BlogPage = async ()=>{
 
   // const posts = await getPosts()
     return(
-        <div className='grid md:grid-cols-3 lg:grid-cols-4'>
+        <div className='my-16 grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
        {posts.map((post)=>(
          <div className={styles.post} key={post.id}>
          <PostCard post={post}/>
