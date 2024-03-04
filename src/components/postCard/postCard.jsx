@@ -24,9 +24,12 @@ const PostCard = ({ post }) => {
        <div className='w-[750px] md:ml-5 rounded-[15px] bg-white h-[230px] shadow-lg shadow-gray-300 my-4 mb-9 p-6 flex items-center justify-between '>
 
          <div className='flex justify-start'>
-         <img
+         <Image
               src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
               alt="card-image"
+              // fill='true'
+              width={20}
+              height={20}
               className='h-32 rounded-md w-56 shadow-lg'
             />
          </div>

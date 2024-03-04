@@ -14,6 +14,10 @@ images:{
             protocol:'https',
             hostname:'cdn.midjourney.com'
         },
+        {
+            protocol:'https',
+            hostname:'images.unsplash.com'
+        },
 
     ]
 }

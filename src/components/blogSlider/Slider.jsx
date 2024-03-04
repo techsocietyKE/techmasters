@@ -1,9 +1,10 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react'
 const images = [
     'https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/4792731/pexels-photo-4792731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    'https://via.placeholder.com/600x300',
+    'https://images.pexels.com/photos/12899138/pexels-photo-12899138.jpeg?auto=compress&cs=tinysrgb&w=600',
   ];
   
 const Slider = () => {
@@ -28,7 +29,8 @@ const Slider = () => {
           }}
         >
           {images.map((url, index) => (
-            <img
+            <Image
+               fill='true'
               key={index}
               src={url}
               alt={`slide-${index + 1}`}

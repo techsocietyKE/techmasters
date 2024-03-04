@@ -30,6 +30,7 @@ const SinglePostPage = async ({params})=>{
                     className='object-cover rounded-full'
                     height={10}
                     width={40}
+                    
                      />
                      <Suspense  fallback="loading...">
                         <PostUser userId = {post.userId}/>
