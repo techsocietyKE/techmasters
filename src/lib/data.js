@@ -1,19 +1,6 @@
-// const users = [
-//     {id:1,name:'John Doe'},
-//     {id:2,name:'Jane Smith'},
-//     {id:3,name:'John lama'},
-//     {id:4,name:'John papa'},
-// ]
-// const posts=[
-//     {id:1,title:'Post 1',body:'......',userId:1},
-//     {id:2,title:'Post 1',body:'......',userId:1},
-//     {id:3,title:'Post 1',body:'......',userId:1},
-//     {id:4,title:'Post 1',body:'......',userId:1},
-//     {id:5,title:'Post 1',body:'......',userId:1},
-// ]
+
 import { Post, User } from "./models";
 import { connectToDb } from "./utils"
-
 
 export const getPosts= async()=>{
    try {
