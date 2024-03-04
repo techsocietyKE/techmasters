@@ -17,7 +17,7 @@ const BlogPage = async ()=>{
   // const posts = await getPosts()
     return(
       <div>
-        {/* <Slider/> */}
+        <Slider/>
           <div className='my-16 md:flex block gap-4 '>
       <div className='w-[800px]'>
          {posts.map((post)=>(

@@ -19,8 +19,8 @@ const SinglePostPage = async ({params})=>{
     return(
           <div className={styles.container}>
             <div className={styles.imageContainer}>
-                <Image src="https://images.pexels.com/photos/719399/pexels-photo-719399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  className={styles.img} fill />
+                <Image  src="https://images.pexels.com/photos/719399/pexels-photo-719399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  className={styles.img} alt="img" fill />
                  
             </div>
             <div className={styles.textContainer}>
@@ -30,7 +30,7 @@ const SinglePostPage = async ({params})=>{
                     className='object-cover rounded-full'
                     height={10}
                     width={40}
-                    
+                    alt="img"
                      />
                      <Suspense  fallback="loading...">
                         <PostUser userId = {post.userId}/>

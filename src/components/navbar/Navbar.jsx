@@ -8,7 +8,7 @@ const Navbar = ()=>{
          <div className=" flex items-center justify-between px-2">
 
           <div className="flex items-center gap-2">
-            <div><Image src='/logo.PNG' width={25} height={25}/></div>
+            <div><Image src='/logo.PNG' width={25} height={25} alt="img"/></div>
           <div className={styles.logo}>Techmasters</div>
           </div>
             

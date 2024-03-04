@@ -54,7 +54,7 @@ const Links =()=>{
             }
         </div>
         <button className={styles.menuButton} onClick={()=>setOpen((prev)=>!prev)}>
-            <Image className='bg-white font-bold' src="/menu.PNG" width={20} height={10} />
+            <Image className='bg-white font-bold' src="/menu.PNG" width={20} height={10} alt='img'/>
         </button>
         {
             open && <div className={styles.mobilelinks}>
